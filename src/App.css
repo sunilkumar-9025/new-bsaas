@@ -1,38 +1,134 @@
-.App {
+.app .grid {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.p-menubar {
+  padding: 5px 1.5rem !important;
+}
+.topbar .p-card {
+  background: #f8f9fa;
+}
+.topbar .p-card .p-card-body {
+  padding: 0.5rem 1.5rem;
+}
+.topbar .p-card .p-card-content {
+  padding: 0 !important;
+}
+.topbar .col-1,
+.topbar .col-11 {
+  padding: 4px 2px !important;
+}
+.topbar-heading {
+  font-size: larger;
+  font-weight: 700;
+}
+.topbar-title {
+  font-weight: 550;
+  color: var(--blue-600);
+}
+.project label {
+  font-size: 14px;
+  font-weight: 400;
+}
+.project .p-button {
+  width: 100% !important;
+}
+.sidepanel {
+  width: 100%;
+}
+.topbar-title .wrapper {
+  margin-bottom: 0px !important;
+}
+.p-button.p-button-icon-only {
+  width: 2.357rem !important;
+}
+.formulation .heading {
+  color: blue;
+}
+.uploadbox {
+  width: 80%;
+  min-height: 100px;
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.sidepanel .p-panelmenu-header > a {
+  border: none !important;
+  background: var(--blue-600) !important;
+  color: #fff !important;
+}
+.formulation label,
+p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.field-checkbox,
+.field-radiobutton {
+  margin-bottom: 2px !important;
+}
+.col-12 {
+  padding: 1px !important;
+}
+.p-inputtext {
+  font-size: 0.75rem !important;
+}
+.formulation .col-12 {
+  margin-bottom: 0.75rem !important;
+}
+.manufacturing label {
+  font-size: 14px;
+  font-weight: 300;
+}
+.manufacturing .heading {
+  color: blue;
+}
+.packaging label {
+  font-size: 14px;
+  font-weight: 300;
+}
+.packaging .heading {
+  color: blue;
+}
+.packaging .uploadbox {
+  width: 70%;
+}
+
+.launch label {
+  font-size: 14px;
+  font-weight: 300;
+}
+.launch .heading {
+  color: blue;
+}
+.testing label {
+  font-size: 14px;
+  font-weight: 300;
+}
+.testing .heading {
+  color: blue;
+}
+.p-dialog-content ul li{
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.p-dialog-title{
+  color: blue;
+}
+.p-column-title{
+  font-size: 14px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.p-datatable-tbody tr td{
+  font-size: 12px;
+  padding: 5px !important;
+text-align: justify;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.p-paginator-current{
+  font-size: 14px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.p-datatable.p-datatable-gridlines .p-paginator-bottom{
+  border: none;
 }
